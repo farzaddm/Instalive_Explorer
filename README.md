@@ -50,7 +50,7 @@ The system is divided into four main parts:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/YourGitHubUsername/instalive-explorer.git
+   git clone git remote add origin https://github.com/farzaddm/Instalive_Explorer.git
    cd instalive-explorer
    ```
 
