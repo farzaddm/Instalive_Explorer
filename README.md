@@ -38,6 +38,19 @@ The system is divided into four main parts:
 - Allows users to like streams or add streams/accounts to their blacklist
   - Filters live streams based on user preferences
 
+## 🖼️ UI Screenshots
+
+### 🌐 Web UI  
+<p float="left">
+  <img src="pictures/front/mobile.jpg" width="45%" />
+</p>
+
+### 💬 Telegram Bot  
+<p float="left">
+  <img src="pictures/bot/1.jpg" width="45%" />
+  <img src="pictures/bot/2.png" width="45%" />
+</p>
+
 ## 📦 Technologies Used
 
 - Python (python-telegram-bot)
@@ -106,6 +119,14 @@ The system is divided into four main parts:
      npm install
      npm run dev
      ```
+     ⚠️ In real-world deployment, you should probably not run this with npm run dev on a laptop while sipping coffee ☕. Use proper DevOps magic—like configuring Nginx or Apache, using PM2 or Docker, and setting up CI/CD pipelines for extra coolness 😎.
+
+## 🗃️ Database Schema
+Here’s the simplified structure of the main tables used:
+
+![Bot Desktop](pictures/db/instalive_tables_schema.png)
+You can find the sql code for creating tables in `sql/create_tables.sql`.
+
 
 ## 👥 Contributors
 
