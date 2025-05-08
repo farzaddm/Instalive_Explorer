@@ -42,13 +42,13 @@ The system is divided into four main parts:
 
 ### 🌐 Web UI  
 <p float="left">
-  <img src="pictures/front/mobile.jpg" width="45%" />
+  <img src="assets/front/mobile.jpg" width="45%" />
 </p>
 
 ### 💬 Telegram Bot  
 <p float="left">
-  <img src="pictures/bot/1.jpg" width="45%" />
-  <img src="pictures/bot/2.png" width="45%" />
+  <img src="assets/bot/1.jpg" width="45%" />
+  <img src="assets/bot/2.png" width="45%" />
 </p>
 
 ## 📦 Technologies Used
@@ -124,7 +124,7 @@ The system is divided into four main parts:
 ## 🗃️ Database Schema
 Here’s the simplified structure of the main tables used:
 
-![Bot Desktop](pictures/db/instalive_tables_schema.png)
+![Bot Desktop](assets/db/instalive_tables_schema.png)
 You can find the sql code for creating tables in `sql/create_tables.sql`.
 
 
